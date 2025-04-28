@@ -1,0 +1,8 @@
+h1 { color:purple;}
+
+.cor_vermelho {color: red;}
+
+body {background: gray;}
+
+#titulo_nossa_frota {font-size: 40px;
+color: brown;}
