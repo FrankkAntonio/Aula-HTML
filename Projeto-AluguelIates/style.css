@@ -1,13 +1,17 @@
 body {background-color:  #EBEBEB;
 margin: 0px; }
 
-#logomarca {background-color: #21272B;}
-
 h1 { color: #1BB4E8;
 display: inline;
 margin-bottom: 0px;}
 
 h2 {color: #FFFFFF;
 margin-top: 0px;}
+
+li {display: inline;}
+
+nav {background-color: #21272B;}
+
+#foto-grande {margin-top: 0px;}
 
 .cor_marron {color: #C6B07F; }

@@ -1,0 +1,18 @@
+  /* h1{border-width: 1px;
+border-left-color: blue;
+border-right-color: red;
+border-style:solid ;
+padding: 20px;
+width: 300px;
+margin-top: 0px;} */
+
+h1{border:1px solid black ;
+    width: 300px;
+    }
+    
+    p{border:1px solid black;}
+    
+    body{margin-top: 0px;}
+    
+    span{border: 1px solid black;}
+

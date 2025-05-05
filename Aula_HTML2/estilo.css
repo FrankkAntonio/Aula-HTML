@@ -1,0 +1,29 @@
+div, p {border: 1px solid black;
+}
+
+#div1 {width: 100px;
+  position: absolute;
+  
+  right: 0px;
+  bottom: 0px;
+
+}
+
+#div2 {width: 100px;
+}
+
+#div3 {width: 100px;
+}
+
+#div-pai {width: 400px;
+    position: absolute;
+top:50px;
+right: 100px;
+}
+
+#p1{width: 300px;
+ position: absolute;
+top: 51px;}
+
+#p2{width: 300px; }
+
