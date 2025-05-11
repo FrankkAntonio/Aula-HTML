@@ -1,17 +1,56 @@
-body {background-color:  #EBEBEB;
-margin: 0px; }
+body {
+    background-color: #EBEBEB;
+    margin: 0;
+  }
+  
+ 
+  h1 {
+    color: #1BB4E8;
+    display: inline;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    color: #FFFFFF;
+    margin-top: 0;
+  }
+  
+ 
+  li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+  
+ 
+  nav {
+    background-color: #21272B;
+    margin-top: 10px;
+    margin-bottom: 0;
 
-h1 { color: #1BB4E8;
-display: inline;
-margin-bottom: 0px;}
+ 
+   
+  }
+  
+ 
+  #empresa {
+    position: absolute;
+    left: 65px;
+    top: 40px;
+  }
+  
 
-h2 {color: #FFFFFF;
-margin-top: 0px;}
+  #logotipo {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+  }
+  
 
-li {display: inline;}
-
-nav {background-color: #21272B;}
-
-#foto-grande {margin-top: 0px;}
-
-.cor_marron {color: #C6B07F; }
+  #foto-grande {
+    border: 1px solid black;
+    display: block;
+    margin: 20px auto;
+  }
