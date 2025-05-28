@@ -1,64 +1,133 @@
+/* Reset */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#geral{
-border: 1px solid black;
-width: 980px;
-margin-top: 0px;
-margin-left: auto;
-margin-right: auto;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EBEBEB;
+  font-size: 20px;
+
 }
-  
- 
-  h1 {
-    color: #1BB4E8;
-    display: inline;
-  
-  }
-  
-  h2 {
-    color: #FFFFFF;
-  
-  }
-  
- #logomarca{
+
+#geral {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* Topo / Navegação */
+nav {
+  background-color: #21272B;
+  color: #fff;
   display: flex;
-border: 1px solid white;
-width: 220px;
-position: relative;
- }
- 
- a{font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-
-  
- }
- 
-  nav {
-    background-color: #21272B;
-height: 155px;
-   
-  }
-  
- 
-  #empresa {
- 
-    left: 65px;
-    top: 40px;
-    width: 170px;
-    border: 1px solid white;
-  }
-  
-#logotipo{
-  border: 1px solid white;
-  width: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  flex-wrap: wrap;
 }
-  
 
-  #foto-grande {
-    border: 1px solid black;
-    display: block;
-    margin: 20px auto;
-  }
+#logomarca {
+  display: flex;
+  align-items: center;
+}
+
+#logotipo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+#empresa h1 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #1BB4E8;
+}
+
+#empresa h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ccc;
+}
+
+#barra-de-acesso ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#barra-de-acesso a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#barra-de-acesso a:hover {
+  color: #00aaff;
+}
+
+/* Imagem principal */
+#view {
+  position: relative;
+}
+
+#foto-grande img {
+  width: 100%;
+  height: auto;
+}
+
+/* Bloco texto da imagem principal */
+#chamada {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 44, 76, 0.9);
+  color: white;
+  padding: 30px;
+  max-width: 350px;
+  border-radius: 2px;
+}
+
+#chamada p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#chamada span {
+  color: #C6B07F;
+  font-weight: bold;
+}
+
+/*Destinos */
+#todafrota{
+ border: black solid 1px; 
+}
+
+#destinos{
+  border: black solid 1px;
+width: 200px;
+position: relative;
+}
+
+#nossafrota{
+  border: black solid 1px;
+  width: 200px;
+
+
+}
+
+
+
+/* Rodapé */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #444;
+  margin-top: 40px;
+}
